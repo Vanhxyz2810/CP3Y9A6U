@@ -20,7 +20,6 @@ pcall(function()
     Lighting.GlobalShadows = false
     Lighting.FogEnd = 9e9
     Lighting.ShadowSoftness = 0
-    game:GetService("RunService"):Set3dRenderingEnabled(false)
     sethiddenproperty(Lighting, "Technology", 2)
     settings().Rendering.QualityLevel = 1
     settings().Rendering.MeshPartDetailLevel = Enum.MeshPartDetailLevel.Level04
