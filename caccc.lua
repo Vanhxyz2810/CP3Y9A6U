@@ -165,7 +165,7 @@ if table.find(ListAcc,game.Players.LocalPlayer.Name) then
         game:GetService("MaterialService").Use2022Materials = false
         workspace.ALWAYS_RENDERING:Destroy()
     end)
-    -- game:GetService("RunService"):Set3dRenderingEnabled(false)
+    game:GetService("RunService"):Set3dRenderingEnabled(false)
     
     
     function Noclip()
@@ -706,7 +706,7 @@ pcall(function()
     game:GetService("MaterialService").Use2022Materials = false
     workspace.ALWAYS_RENDERING:Destroy()
 end)
--- game:GetService("RunService"):Set3dRenderingEnabled(false)
+game:GetService("RunService"):Set3dRenderingEnabled(false)
 
 
 function Noclip()
