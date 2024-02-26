@@ -18,7 +18,7 @@ local function GetItem(name)
     for i,v in  SaveModule.GetSaves()[plr].Inventory do
         for i2, v2 in next, v do 
             if v2['id'] == name then
-                return v2._am
+                return v2._am or 0
             end
         end
     end
