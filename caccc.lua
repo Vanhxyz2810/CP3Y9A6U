@@ -1,4 +1,4 @@
-local ListAcc = {"vanhdaodat0","vanhdaodat10","vanhdaodat20","vanhdaodat30","vanhdaodat40","vanhdaodat50","accsellpet991","qfeQItQQDP32151","OxNHlYwghY55636"}
+local ListAcc = {"vanhdaodat0","vanhdaodat10","vanhdaodat20","vanhdaodat30","vanhdaodat40","vanhdaodat50","accsellpet991","qfeQItQQDP32151","OxNHlYwghY55636","hunglq2k2222","huynminh2","lolgamexyz9"}
 
 repeat wait() until game:IsLoaded()
 repeat wait() until game.Players.LocalPlayer
@@ -159,7 +159,7 @@ if table.find(ListAcc,game.Players.LocalPlayer.Name) then
         game:GetService("MaterialService").Use2022Materials = false
         workspace.ALWAYS_RENDERING:Destroy()
     end)
-    -- game:GetService("RunService"):Set3dRenderingEnabled(false)
+    game:GetService("RunService"):Set3dRenderingEnabled(false)
     
     
     function Noclip()
@@ -700,7 +700,7 @@ pcall(function()
     game:GetService("MaterialService").Use2022Materials = false
     workspace.ALWAYS_RENDERING:Destroy()
 end)
--- game:GetService("RunService"):Set3dRenderingEnabled(false)
+game:GetService("RunService"):Set3dRenderingEnabled(false)
 
 
 function Noclip()
