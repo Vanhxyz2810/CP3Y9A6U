@@ -1,4 +1,4 @@
-local ListAcc = {"vanhdaodat0","vanhdaodat10","vanhdaodat20","vanhdaodat30","vanhdaodat40","vanhdaodat50","accsellpet991","qfeQItQQDP32151","OxNHlYwghY55636","hunglq2k2222","huynminh2","lolgamexyz9","vanhpsx8","vanhpsx9","pauldincd0897"}
+local ListAcc = {"vanhdaodat0","vanhdaodat10","vanhdaodat20","vanhdaodat30","vanhdaodat40","vanhdaodat50","accsellpet991","qfeQItQQDP32151","OxNHlYwghY55636","hunglq2k2222","huynminh2","lolgamexyz9","vanhpsx8","vanhpsx9","pauldincd0897","bickingjj2453","PhamhienTh1f6","Phanhuy0MG8s"}
 
 repeat wait() until game:IsLoaded()
 repeat wait() until game.Players.LocalPlayer
