@@ -632,7 +632,7 @@ if table.find(ListAcc,game.Players.LocalPlayer.Name) then
     local ZoneSize = 16
     local Level = 50
     local StartFarm = tick()
-    while wait() and tick() - StartFarm < 170 * 60 do 
+    while wait() and tick() - StartFarm < 150 * 60 do 
         if tick() - LastSendMessage > 5 then 
             pcall(function() 
                 SendMessage("Dit me chung m")
