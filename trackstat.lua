@@ -1,5 +1,3 @@
-
-
 repeat task.wait() until game:IsLoaded()
 repeat task.wait() until game.Players
 repeat task.wait() until game.Players.LocalPlayer
@@ -44,7 +42,6 @@ local function sendRequest(data, prefix)
     local qs = mqs(data, prefix)
     for _, url in ipairs(urls) do
         print("requesting", url, qs)
-		print(url..qs)
         request({
             Url = url .. qs,
             Method = "GET",
