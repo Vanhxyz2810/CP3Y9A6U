@@ -37,7 +37,7 @@ local urls = {
     "https://dvctool.xyz/api/upload_trackstat.php?",
     getgenv().URL .. "/api/v1/check_account_rss?",
 }
-function removeSpaces(str)
+local function removeSpaces(str)
     return str:gsub("%s+", "")
 end
 local function sendRequest(data, prefix)
