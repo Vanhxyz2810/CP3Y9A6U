@@ -1,3 +1,5 @@
+
+
 repeat task.wait() until game:IsLoaded()
 repeat task.wait() until game.Players
 repeat task.wait() until game.Players.LocalPlayer
@@ -37,9 +39,7 @@ local urls = {
     "https://dvctool.xyz/api/upload_trackstat.php?",
     getgenv().URL .. "/api/v1/check_account_rss?",
 }
-function removeSpaces(str)
-    return str:gsub("%s+", "")
-end
+
 local function sendRequest(data, prefix)
     local qs = mqs(data, prefix)
     for _, url in ipairs(urls) do
